@@ -1,0 +1,4 @@
+package nupogodi;
+
+class Wolf {
+}
