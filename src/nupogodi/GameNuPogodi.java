@@ -19,7 +19,7 @@ public class GameNuPogodi extends JFrame{
         wolf = new Wolf();
         field = new Field();
         System.out.println(egg.size);
-        System.out.println(egg.weight);
+        //System.out.println(egg.weight);
 
         gameCycle();
     }
