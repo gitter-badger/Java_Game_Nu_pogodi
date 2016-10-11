@@ -38,9 +38,7 @@ public class GameNuPogodi extends JFrame{
         m.add(field);
         m.setVisible(true);
 
-
-
-        System.out.println(egg.size);
+        System.out.println("Initialize here");
         //System.out.println(egg.weight);
 
         gameCycle();
@@ -52,7 +50,8 @@ public class GameNuPogodi extends JFrame{
         {
             //TODO main cycle here. i expect, that all calculations should be here
 
-            //field.repaint();        // renew the game screen
+            field.updateEggsList(eggsArray);
+            field.repaint();        // renew the game screen
         }
     }
 
